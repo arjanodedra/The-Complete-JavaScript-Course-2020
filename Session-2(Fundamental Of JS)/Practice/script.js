@@ -1,6 +1,5 @@
-
 //'use strict mode' - Activate Strict Mode
-'use strict'
+'use strict';
 /*
 let hasRightsToVote = false;
 let isVoted = true;
@@ -260,30 +259,14 @@ for (let i = years.length - 1; i >= 0; i--) {
 //While Loop
 let rep = 1;
 while (rep <= 10) {
-    console.log(`Lets Start a count ${rep}`);
-    rep++;
+  console.log(`Lets Start a count ${rep}`);
+  rep++;
 }
 
 let dice = Math.trunc(Math.random() * 6) + 1;
 //console.log(dice);
 while (dice !== 6) {
-    console.log(`You rolled dice ${dice}`);
-    dice = Math.trunc(Math.random() * 6) + 1;
+  console.log(`You rolled dice ${dice}`);
+  dice = Math.trunc(Math.random() * 6) + 1;
 }
 console.log(`You win..!!`);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
